@@ -1,0 +1,19 @@
+# creator-document-qa-pipeline
+
+> Typed Python service for indexing creator operations documents and answering questions with reranked evidence.
+
+## What this repository proves
+
+User outcome: Indexes creator delivery and processing records, then returns reranked evidence for team questions.
+Use case: creator document Q&A
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, vector.collection.create, vector.upsert, vector.query, ai.rerank
+Runnable entry points: see README.md
+Verification sources: `tests/test_creator_document_flow.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

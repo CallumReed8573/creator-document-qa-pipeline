@@ -1,0 +1,19 @@
+[
+  {
+    "document_id": "delivery-1042",
+    "title": "September asset delivery",
+    "text": "The Lightroom preset pack is ready. Annual subscribers receive asset dl-1042 in the September update.",
+    "asset_id": "dl-1042",
+    "subscriber_tier": "annual",
+    "processing_state": "processed"
+  },
+  {
+    "document_id": "processing-208",
+    "title": "Transcript processing run",
+    "text": "Episode 208 was transcribed, reviewed, and marked processed before the subscriber digest was assembled.",
+    "asset_id": "episode-208-transcript",
+    "subscriber_tier": "all",
+    "processing_state": "processed"
+  }
+]
+
